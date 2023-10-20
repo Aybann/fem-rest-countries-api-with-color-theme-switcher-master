@@ -85,7 +85,7 @@ const Home = () => {
         Loading...
         </div> 
       }
-      <section className="my-8 grid gap-8 grid-cols-1 px-10 sm:grid-cols-2 md:gap-4 md:px-0 md:grid-cols-4">
+      <section className="my-8 grid gap-8 grid-cols-1 sm:grid-cols-2 md:gap-4 md:px-0 md:grid-cols-4">
         {
           filteredData && filteredData.map((country, index) => (
             <div key={index}>
